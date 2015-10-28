@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "rails", "4.2.4"
 gem "pg"
+gem "devise"
 
 group :test do
   gem "fuubar"
