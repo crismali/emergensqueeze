@@ -2,7 +2,8 @@ source "https://rubygems.org"
 
 gem "rails", "4.2.4"
 gem "pg"
-gem "devise"
+gem "devise_token_auth"
+gem "omniauth"
 
 group :test do
   gem "fuubar"
